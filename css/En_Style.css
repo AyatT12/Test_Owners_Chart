@@ -1,0 +1,87 @@
+body {
+    direction: ltr;
+    color: black;
+    font-family: "Cairo", sans-serif;
+
+}
+
+#wrapper {
+    direction: ltr;
+}
+
+.accordion {
+    direction: rtl;
+}
+
+.card-body,
+.tables-row {
+    text-align: left;
+}
+.user-dropdown{
+    text-align: left ;
+}
+.sidebar-dark #sidebarToggle {
+    right:2px;
+    left: 0;
+}
+
+.spacing-table {
+    text-align: left;
+    direction: rtl;
+}
+
+#accordionSidebar {
+    padding: 0px;
+}
+
+
+.rate-data{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.Time-position{
+    flex-direction: row;
+}
+.card-header{
+    text-align: start;
+}
+.progress-rate{
+    text-align: end;
+}
+.middel-arrow{
+    padding-right:3rem !important ;
+   }
+.lang-button-col{
+    text-align: end;
+}
+.bars-button {
+    text-align: left;
+}
+.lang_globe{
+    padding-left: .3rem;
+    padding-right: 0rem;
+}
+.sidebar #sidebarToggle::after{
+    content: url("../img/Group.svg") !important;
+
+}
+.sidebar.toggled #sidebarToggle::after{
+    content: url("../img/chevrons-right.svg") !important;
+
+}
+.lang-button-col {
+    right: auto;
+    left: 0px;
+}
+
+#backButton2 , #backButton{
+    transform: rotate(180deg)
+
+}
+@media (max-width: 765px) {
+    .sidebar.toggled {
+        transform: translateX(-100%) !important;
+    }
+}
